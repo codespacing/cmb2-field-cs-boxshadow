@@ -1,0 +1,105 @@
+.cs-boxshadow-fields-toggle.cmb-row{
+	margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.cs-field-label{
+	font-weight:400;
+	clear:both;
+	width: 100%;
+    display: inline-block;
+	padding:5px 0;	
+}
+
+.cs-boxshadow-preview{
+    padding: 50px;
+	margin:5px 0;
+	font-weight: 200;
+    font-size: 14px;
+    font-style: normal;	
+	background: #f7f7f7;
+    border-radius: 2px;
+}
+
+code.cs-boxshadow-code{
+	margin-left:10px;
+	float:right;
+}
+
+code.cs-property-value{
+	margin-left:10px;
+}
+
+.cs_box{
+	height:50px;
+	width:100%;
+	background:#fff;
+	margin:auto;
+}
+
+.cs-boxshadow-minus,
+.cs-boxshadow-plus{
+	cursor: pointer;
+	margin:0 !important;
+}
+
+.cs-boxshadow-element{
+	padding:5px;
+	box-sizing:border-box;
+}
+
+.cs-boxshadow-element:nth-child(1),
+.cs-boxshadow-element:nth-child(3n+1){
+	padding-left:0;
+}
+
+.cs-boxshadow-element:nth-child(3n){
+	padding-right:0;
+}
+
+.cs-boxshadow-element select{
+	margin:0 !important;
+}
+
+.cs-boxshadow-field{
+	padding-right:5px;
+}
+
+.half-size{
+	width:calc(100% / 3);
+	float:left;
+}	
+
+.cs-boxshadow-field.half-size{
+    box-sizing: border-box;
+	float:left;
+    width: 50% !important;
+}
+
+input.cs-boxshadow-text{
+	width:calc(100% - 70px) !important;	
+}
+
+@media only screen and (max-width: 600px) {
+	
+	.cs-boxshadow-element,
+	.cs-boxshadow-field{
+		padding:0;
+	}
+	
+	.half-size{
+		width:100%;
+		float:none;
+	}	
+
+	.cs-boxshadow-field.half-size:nth-child(2n+1){
+		padding-left:10px;
+	}
+	
+	code.cs-boxshadow-code{
+		display:block;
+		margin: 10px auto 0 auto;
+		float: none;	
+	}
+
+}
